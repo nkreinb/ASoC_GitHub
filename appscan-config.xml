@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+  <Targets>
+    <Target path="AltoroJ_3.2.war">
+      <Exclude>AltoroJ_3.2.war\swagger\lib\swagger-oauth.js</Exclude>
+      <Exclude>WEB-INF\lib\derby-10.8.2.2.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\underscore-min.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\marked.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lang\pt.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lang\translator.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\o2c.html</Exclude>
+      <Exclude>WEB-INF\lib\jersey-container-servlet-2.27.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\jquery.wiggle.min.js</Exclude>
+      <Exclude>WEB-INF\lib\osgi-resource-locator-1.0.1.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\swagger-ui-bundle.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\jquery.ba-bbq.min.js</Exclude>
+      <Exclude>WEB-INF\lib\aopalliance-repackaged-2.5.0-b42.jar</Exclude>
+      <Exclude>WEB-INF\lib\hk2-utils-2.5.0-b42.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\index.html</Exclude>
+      <Exclude>WEB-INF\lib\javax.inject-1.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\fonts\droid-sans-v6-latin-regular.svg</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\jquery-1.8.0.min.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\swagger-ui-standalone-preset.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\backbone-min.js</Exclude>
+      <Exclude>WEB-INF\lib\commons-codec-1.6.jar</Exclude>
+      <Exclude>WEB-INF\lib\hk2-api-2.5.0-b42.jar</Exclude>
+      <Exclude>admin/feedbackReview.jsp</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\highlight.7.3.pack.js</Exclude>
+      <Exclude>WEB-INF\lib\log4j-1.2.16.jar</Exclude>
+      <Exclude>WEB-INF\lib\jersey-common-2.27.jar</Exclude>
+      <Exclude>WEB-INF\lib\jersey-media-jaxb-2.27.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lang\ru.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lang\es.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\fonts\droid-sans-v6-latin-700.svg</Exclude>
+      <Exclude>WEB-INF\lib\hk2-locator-2.5.0-b42.jar</Exclude>
+      <Exclude>WEB-INF\lib\wink-json4j-1.4.jar</Exclude>
+      <Exclude>WEB-INF\lib\javax.inject-2.5.0-b42.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\jquery.slideto.min.js</Exclude>
+      <Exclude>WEB-INF\lib\validation-api-1.1.0.Final.jar</Exclude>
+      <Exclude>WEB-INF\lib\javassist-3.22.0-CR2.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lang\en.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\lib\handlebars-2.0.0.js</Exclude>
+      <Exclude>WEB-INF\lib\javax.annotation-api-1.2.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\admin\feedbackReview.jsp</Exclude>
+      <Exclude>WEB-INF\lib\javax.ws.rs-api-2.1.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\swagger-ui.min.js</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\swagger-ui.js</Exclude>
+      <Exclude>WEB-INF\lib\jersey-hk2-2.27.jar</Exclude>
+      <Exclude>AltoroJ_3.2.war\swagger\oauth2-redirect.html</Exclude>
+      <Exclude>WEB-INF\lib\commons-lang3-3.3.2.jar</Exclude>
+      <Exclude>WEB-INF\lib\jersey-server-2.27.jar</Exclude>
+      <Exclude>WEB-INF\lib\jersey-container-servlet-core-2.27.jar</Exclude>
+      <Exclude>WEB-INF\lib\commons-lang-2.5.jar</Exclude>
+      <Exclude>WEB-INF\lib\jersey-client-2.27.jar</Exclude>
+    </Target>
+  </Targets>
+</Configuration>

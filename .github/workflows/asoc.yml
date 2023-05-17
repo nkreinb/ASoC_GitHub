@@ -14,3 +14,15 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: 5ef64671-56d8-4e52-a2a5-6c4f9902a486
           scan_build_outputs: true
+          
+      - uses: actions/upload-artifact@v2
+        name: Upload HCL AppScan Static Analysis HTML Report to Github Artifacts
+        with:
+          name: AppScan Static Analysis HTML Security Scan Report 
+          path: AppScan_Security_Report.html
+          
+      - uses: actions/upload-artifact@v2
+        name: Upload HCL AppScan Static Analysis XML Report to Github Artifacts
+        with:
+          name: AppScan Static Analysis XML Security Scan Report 
+          path: AppScan_Security_Report.xml

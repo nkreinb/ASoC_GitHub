@@ -1,0 +1,18 @@
+Options -Indexes +FollowSymLinks
+DirectoryIndex index.php
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ;([^/\.]*)/(.*)	\\$2?sessionid=$1
+RewriteRule (.*).aspx	\\$1.php [QSA]
+RewriteRule home=(.*)$ \default.php?content=$1 [QSA]
+RewriteRule (\d{10,30})/(.*) \\$2 [QSA]
+
+
+
+
+
+
+
+

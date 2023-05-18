@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Run AppScan CodeSweep
         uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v2
-      # -name: Run AppScan SAST scan
+      #- name: Run AppScan SAST scan
       #  uses: HCL-TECH-SOFTWARE/appscan-sast-action@v1.0.1
         with:
           fetch-depth: 0

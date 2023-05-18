@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        name: Run AppScan CodeSweep
+      - name: Run AppScan CodeSweep
         uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v2
       # -name: Run AppScan SAST scan
       #  uses: HCL-TECH-SOFTWARE/appscan-sast-action@v1.0.1

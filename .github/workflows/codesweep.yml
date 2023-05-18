@@ -1,6 +1,6 @@
 name: "HCL AppScan CodeSweep Publish"
 on:
-  pull_request
+  workflow_dispatch
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -13,5 +13,6 @@ jobs:
           publish_on_merge: true
           application_id: 246455ca-eba5-4b41-939c-bad4e9e3fcb0
           status: failure
+          fetch-depth: 0
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

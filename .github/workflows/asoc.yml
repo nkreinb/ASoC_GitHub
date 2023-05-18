@@ -13,4 +13,3 @@ jobs:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: 5ef64671-56d8-4e52-a2a5-6c4f9902a486
-          scan_build_outputs: true

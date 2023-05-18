@@ -99,7 +99,7 @@
 			E-mail address:<?=$_SESSION['survey_email']?><br><br>
 			<br><br>
 			We will contact you soon to let you know if you won.
-			<?
+			<? 
 			
 			break;		
 	

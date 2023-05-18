@@ -1,8 +1,6 @@
 name: HCL AppScan CodeSweep Github Action
-
 on: 
   pull_request
-
 jobs:
   scan:
     runs-on: ubuntu-latest

@@ -23,7 +23,7 @@
 			if(!$email) error("No e-mail specified");
 			$c=new Connection();
 			$c->connect();
-			$result=mysql_query("select * from surveys where email='$email'");  
+			$result=mysql_query("select * from surveys where email='$email'");   
 			$c->close();
 			if($result && mysql_num_rows($result)) error("The e-mail specified already exists in our database");
 			$_SESSION['survey_email']=$email;
